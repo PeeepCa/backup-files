@@ -74,6 +74,11 @@ class main:
                             self.logHandler(self.timeStmp() + ' File copied because they are missing '+ self.src + src_d[i] + ' to ' + self.dst)
                     except IndexError:
                         pass
+                    except PermissionError:
+                        print('File ' + src_d[i] + ' cannot be copied')
+                        self.logHandler(self.timeStmp() + ' File ' + src_d[i] + ' cannot be copied')
+                        continue
+                    
                     try:
                         if dst_d[i] not in src_d:
                             # if there s file which doesnt belong there then delete it

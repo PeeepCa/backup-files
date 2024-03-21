@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["C:/Users/pokorny/OneDrive - APAG Elektronik s.r.o/Documents/GitHub/backup-files/folder_to_sync/", "C:/Users/pokorny/OneDrive - APAG Elektronik s.r.o/Documents/GitHub/backup-files/folder_synced/", "1", "log.txt"]
+            "args": ["C:/Windows/SystemResources/", "C:/Users/pokorny/OneDrive - APAG Elektronik s.r.o/Documents/GitHub/backup-files/folder_synced/", "1", "log.txt"]
         }
     ]
 }
