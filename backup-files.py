@@ -1,10 +1,11 @@
-# Sync of files - DONE
-# Sync should be one way - DONE
-# Sync should be done periodically - DONE
-# File manipulation should be logged to file and console - DONE
-# Folder paths, interval and log path should be configurable via args - DONE
-# Folder sync should not use 3th party library - DONE
-# Other things can be via libraries - DONE
+# Application just checking source folder if there s any new file or if there s any file which has changes
+# in comparison to second folder
+# App checking the creation time and date to compare files
+# if there s any change in destination folder it ll automaticly revert changes to actual one
+# Interval is implemented just by adding sleep
+# App can be improved by multithreading in future, but it depends on future testing
+# Multithreading can improve logging performance
+# Theres possibility to add UI as well
 
 import sys
 import os
